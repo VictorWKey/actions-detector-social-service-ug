@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.parquet
+*.feather
+*.npz
+*.npy
+*.sav
+*.pkl
+*.pickle
+*.joblib
+*.mat
+*.arff
+*.tsv
+*.jsonl
+*.log
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# PDF, presentations, and docs
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.odt
+*.rtf
+*.tex
+*.aux
+*.out
+*.toc
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Output folders
+/data*/
+/distancias*/
+/velocidades*/
+/cleanData*/
+/output*/
