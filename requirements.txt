@@ -1,0 +1,27 @@
+# Sistema de Reconocimiento de Actividades Humanas - Dependencias Completas
+# Core Computer Vision
+opencv-python==4.8.1.78
+mediapipe
+
+# Intel RealSense
+pyrealsense2==2.54.1.5217
+
+# Data Processing
+pandas==2.1.3
+numpy==1.24.3
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# Visualization
+matplotlib==3.8.2
+plotly>=5.17.0
+
+# GUI (Tkinter viene incluido con Python)
+Pillow>=10.0.0  # Para mostrar imágenes en la GUI
+
+# File handling and utilities
+glob2>=0.7
+tqdm>=4.65.0

@@ -65,3 +65,15 @@ desktop.ini
 /velocidades*/
 /cleanData*/
 /output*/
+/temp_data/
+/models/
+
+# Legacy folders (mantener para compatibilidad)
+/SkeletonExtraction/data/
+/SkeletonExtraction/cleanData/
+/Proyecto\ final/data/
+/Proyecto\ final/distancias/
+/Proyecto\ final/velocidades/
+/Práctica\ 2/dataPractice2/
+/Práctica\ 2/distanciasPractice2/
+/Práctica\ 2/velocidadesPractice2/
