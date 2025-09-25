@@ -1,0 +1,28 @@
+Proceso para la creación del dataset
+1.- Se realizó toda la limpieza necesaria para dejar todos los ejemplos en un mismo formato (renombrar archivos, cambios de cabeceras, reacomodo del diccionario de joints).
+
+2.- Se realizó el calculo de la espina para cada uno de los frames dentro de cada actividad utilizando :
+Hombro Izquierdo - joint11
+Hombro Derecho - joint12
+Cadera Izquierda - joint23
+Cadera Derecha - joint24
+y aunque no se realiza la conexión gráfica con alguna otra articulación, su único propósito es crear una punto central a partir del cuál se calcularan distintas distancias y velocidades.
+
+3.- Se calcularon 8 distancias de cada frame a partir de la espina y se almacenaron para la construcción del dataset final:
+codo izquierdo - joint13
+codo derecho - joint14
+muñeca izquierda - joint15
+muñeca derecha - joint16
+Rodilla izquierda - joint25
+rodilla derecha - joint26
+talon izquierdo - joint29
+talon derecho - joint30
+
+4.- Se calcularon las velocidades para cada una de las distancias usando el intervalo de tiempo 0.1
+
+5.- Características calculadas para cada una de las distancias y velocidades:
+media
+varianza
+máximo
+mínimo
+Dado que cada una de estas 4 características fue calculada para las 8 distancias y las 8 velocidades, obtenemos un total de 64 características cómo columnas y una columna extra con la etiqueta de la actividad que le corresponde, con ello, tenemos un dataset final de 400*65

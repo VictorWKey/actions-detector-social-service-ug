@@ -13,8 +13,6 @@ __pycache__/
 .vscode/
 
 # Data files
-*.csv
-*.xlsx
 *.xls
 *.h5
 *.hdf5
