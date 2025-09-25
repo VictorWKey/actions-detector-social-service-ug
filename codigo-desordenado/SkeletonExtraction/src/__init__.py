@@ -1,0 +1,1 @@
+# Skeleton Extraction Project - Main package
