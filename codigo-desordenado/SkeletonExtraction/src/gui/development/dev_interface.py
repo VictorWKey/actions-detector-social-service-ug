@@ -59,7 +59,7 @@ class DevInterface(QWidget):
         action_layout.addWidget(action_label)
         
         self.action_combo = QComboBox()
-        self.action_combo.addItems(["aplaudir", "saludar"])
+        self.action_combo.addItems(["aplaudir", "saludar", "vieneviene", "dibujar circulo", "sentadilla"])
         self.action_combo.setCurrentText("aplaudir")
         action_layout.addWidget(self.action_combo)
         
